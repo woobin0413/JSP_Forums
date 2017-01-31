@@ -1,0 +1,9 @@
+.project
+.settings
+.classpath
+.metadata
+bin
+.class
+Thumbs.db
+jar
+
