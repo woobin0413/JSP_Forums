@@ -10,4 +10,9 @@ BOARD SYSTEM
 <STRONG> DATABASE HAS BEEN USED </STRONG>
 <BR>
 <H1>ORACLE DATABASE</H1>
-
+<br>
+<img src="pic/1.png">
+<img src="pic/2.png">
+<img src="pic/3.png">
+<br>
+<h2>Developed in <strong>JSP, MVC Pattern, HTML, CSS</strong></h2>
