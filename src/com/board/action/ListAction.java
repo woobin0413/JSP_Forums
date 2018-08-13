@@ -15,8 +15,9 @@ public class ListAction implements CommandAction {
 	public String requestPro(HttpServletRequest request,
 			HttpServletResponse response) throws Throwable {
 
-		int page = 0;				 // 기본 페이지번호를 0으로 설정하고
-		if(request.getParameter("page") != null){				 // 넘어온 파라미터가 있다면 	
+		int page = 0; //setting default page to 0
+		if(request.getParameter("page") != null){
+			//if there’s any parameter value
 			page = Integer.parseInt(request.getParameter("page"));
 		}			  // 해당 파라미터를 int형으로 캐스팅후 변수에 대입합니다.
 			ArrayList<Board> articleList = BoardDao.getInstance().getArticleList(page);	
