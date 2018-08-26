@@ -1,6 +1,6 @@
-# Java MVC Add,Edit,Delete Using JSP And Servlet With MySQL ...
+# Java MVC Add,Edit,Delete Using JSP And Servlet With MySQL
 
-## Description app_mysql
+## Description
 Add, edit, delete, leave a comment on someone's wall or post.
 <br>
 data will be stored in mysql database
